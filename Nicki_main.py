@@ -3,6 +3,7 @@ import torch
 from torch import nn
 from model import myawesomemodel
 import numpy as np
+import matplotlib.pyplot as plt
 
 from data import mnist
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
